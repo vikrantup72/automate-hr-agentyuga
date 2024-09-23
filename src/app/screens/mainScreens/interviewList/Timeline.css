@@ -1,0 +1,90 @@
+
+.timeline {
+	background-color: #f7f8fd;
+	width: 100%;
+	border-radius: 12px;
+	padding: 0 0 20px 0;
+	height: 85vh;
+	overflow: scroll;
+}
+
+/* Search bar styles */
+.search-bar {
+	margin: 20px auto;
+}
+
+input {
+	width: 98%;
+	padding: 10px;
+	border: 1px solid #2c5da7;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.search-bar input:focus {
+	outline: none;
+	border-color: #1a4a8d;
+	box-shadow: 0 0 0 2px rgba(44, 93, 167, 0.2);
+}
+
+/* Date grouping styles */
+.timeline-date-group {
+	margin-bottom: 30px;
+}
+
+.timeline-date {
+	color: #2c5da7;
+	border-bottom: 2px solid #2c5da7;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.timeline-time-group {
+	margin-bottom: 20px;
+}
+
+.timeline-time {
+	color: #2c5da7;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* Individual item styles */
+.timeline-item {
+	border-left: 2px solid #2c5da7;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+/* Content styles */
+.timeline-content {
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding: 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-title {
+	color: #2c5da7;
+	margin-bottom: 10px;
+}
+
+.timeline-description {
+	color: #333;
+}
+
+.timeline-details,
+.timeline-candidate,
+.timeline-interviewers {
+	color: #666;
+}
+
+.interviewer {
+	display: inline;
+	margin-right: 5px;
+}
+
+.timeline-content strong {
+	color: #2c5da7;
+}

@@ -1,0 +1,37 @@
+.button-container {
+	flex: 1 1 auto;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 12px;
+}
+
+.button-container:hover {
+	background-position: right center; /* change the direction of the change here */
+	cursor: pointer;
+}
+
+.btn-bg {
+	background-image: linear-gradient(
+		to right,
+		#f1a54c 0%,
+		#e98936 51%,
+		#fda085 100%
+	);
+}
+.button-text {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 490px) {
+	.button-text {
+		font-size: 14px;
+	}
+}
